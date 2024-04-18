@@ -1,0 +1,32 @@
+.button{
+    display: block;
+    width: 308px;
+    font-size: 35px;
+    background: #240202;
+    color: white;
+    text-decoration: none;
+    padding: 14px 33px;
+    position: relative;
+  }
+  
+  .button::after{
+    content: "";
+    background-image: url("static/img/arrow.svg");
+     width: 28px;
+    display: block;
+    height: 34px;
+    background-size: 28px 34px;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%)
+  }
+    
+.article_title{
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'merriweather-regular';
+    padding-top: 130px;
+    padding-bottom: 152px;
+    width: 950px;
+}
