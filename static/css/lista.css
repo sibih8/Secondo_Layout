@@ -1,0 +1,36 @@
+.customList .listItem::before{
+    counter-increment: listItem;
+    content: "0" counter(listItem) ".";
+    display: block;
+    border-bottom: #707070 1px solid;
+    font-size: 70px;
+    color: #707070;
+    font-family: "Merriweather", serif;
+    padding-top: 104px;
+    margin-bottom: 16.5px;
+    margin-top: 15.5px;
+
+}
+
+.customList ol{
+    list-style: none;
+    padding : 0 ;
+    margin: 0 ;
+    counter-reset: listItem;
+    margin-block-end: 147px;
+
+
+}
+ 
+.link{
+    color: #FF0000;
+
+}
+
+.stile{
+    margin-top: 15px;
+    color: #707070;
+    font-family: "Merriweather", serif;
+    font-size: 22px;
+
+}
